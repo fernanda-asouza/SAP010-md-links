@@ -8,5 +8,24 @@
     "createdAt": "2023-06-19T12:25:44.680Z",
     "version": "6.3.0",
     "commit": "c17498042fc79734cec390e6314cbe810e95bf4c"
+  },
+  "description": "## Índice",
+  "main": "./src/cli.js",
+  "directories": {
+    "test": "jest"
+  },
+  "bin": {
+    "mdLinks": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
   }
 }
